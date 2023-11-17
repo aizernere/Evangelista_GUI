@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SimpleCalculator.SimpleCalculator">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14342102"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="20324" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14342102"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="44dbf" class="javax.swing.JTextField" binding="txtNum1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <font name="Monospaced" size="14"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="2bc7c" class="javax.swing.JTextField" binding="txtNum2">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <font name="Monospaced" size="14"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="c53ef" class="javax.swing.JLabel" binding="lblResult">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="14"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="93f7c" class="javax.swing.JComboBox" binding="cbOp">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <font name="Monospaced" size="14"/>
+              <model>
+                <item value="+"/>
+                <item value="-"/>
+                <item value="*"/>
+                <item value="/"/>
+              </model>
+            </properties>
+          </component>
+          <component id="47ce0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="14"/>
+              <foreground color="-1"/>
+              <text value="1st Number"/>
+            </properties>
+          </component>
+          <component id="e3ed1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="14"/>
+              <foreground color="-1"/>
+              <text value="2nd Number"/>
+            </properties>
+          </component>
+          <component id="ae746" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="14"/>
+              <foreground color="-1"/>
+              <text value="Result"/>
+            </properties>
+          </component>
+          <component id="fd326" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16600577"/>
+              <focusable value="true"/>
+              <font name="Monospaced" size="14"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="Compute Result"/>
+            </properties>
+          </component>
+          <vspacer id="5bd35">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

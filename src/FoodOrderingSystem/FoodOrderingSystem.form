@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FoodOrderingSystem.FoodOrderingSystem">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="291"/>
+    </constraints>
+    <properties>
+      <background color="-14342102"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="170fa" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14342102"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6050d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="20" style="1"/>
+              <foreground color="-1"/>
+              <text value="Foods"/>
+            </properties>
+          </component>
+          <component id="258f5" class="javax.swing.JCheckBox" binding="cPizza">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Pizza"/>
+              <toolTipText value="100"/>
+            </properties>
+          </component>
+          <component id="d3fb2" class="javax.swing.JCheckBox" binding="cBurger">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Burger"/>
+              <toolTipText value="80"/>
+            </properties>
+          </component>
+          <component id="a0211" class="javax.swing.JCheckBox" binding="cFries">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Fries"/>
+              <toolTipText value="65"/>
+            </properties>
+          </component>
+          <component id="daaf9" class="javax.swing.JCheckBox" binding="cSoftDrinks">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Soft Drinks"/>
+              <toolTipText value="55"/>
+            </properties>
+          </component>
+          <component id="ddbd1" class="javax.swing.JCheckBox" binding="cTea">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Tea"/>
+              <toolTipText value="50"/>
+            </properties>
+          </component>
+          <component id="1b46d" class="javax.swing.JCheckBox" binding="cSundae">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Sundae"/>
+              <toolTipText value="40"/>
+            </properties>
+          </component>
+          <component id="6e4e4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Php 100"/>
+            </properties>
+          </component>
+          <component id="6889e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Php 80"/>
+            </properties>
+          </component>
+          <component id="3e4d1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Php 65"/>
+            </properties>
+          </component>
+          <component id="65625" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Php 55"/>
+            </properties>
+          </component>
+          <component id="fa80b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Php 50"/>
+            </properties>
+          </component>
+          <component id="77f72" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Php 40"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c9c6a" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14342102"/>
+          <toolTipText value="10"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b409" class="javax.swing.JRadioButton" binding="rbFifteen">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="15% Off"/>
+              <toolTipText value="0.15"/>
+            </properties>
+          </component>
+          <component id="9baf9" class="javax.swing.JRadioButton" binding="rbTen">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="10% Off"/>
+              <toolTipText value="0.1"/>
+            </properties>
+          </component>
+          <component id="2f6b2" class="javax.swing.JRadioButton" binding="rbFive">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="5% Off"/>
+              <toolTipText value="0.05"/>
+            </properties>
+          </component>
+          <component id="206ff" class="javax.swing.JRadioButton" binding="rbNone">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14342102"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="None"/>
+              <toolTipText value="0"/>
+            </properties>
+          </component>
+          <component id="19724" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="20" style="1"/>
+              <foreground color="-1"/>
+              <text value="Discounts"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="15738" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5a18c" class="javax.swing.JButton" binding="btnOrder">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3080135"/>
+              <font name="Monospaced" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Order"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="grpDiscount">
+      <member id="b409"/>
+      <member id="b409"/>
+      <member id="9baf9"/>
+      <member id="2f6b2"/>
+      <member id="206ff"/>
+    </group>
+  </buttonGroups>
+</form>
